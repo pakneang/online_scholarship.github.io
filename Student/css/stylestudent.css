@@ -1,0 +1,1101 @@
+*{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    box-sizing: border-box;
+    font-family: 'Cambria Math';
+}
+.container_pageuser1{
+    width: 76%;
+    height: auto;
+    background: #D3F6F4;
+    margin: 0 auto;
+    margin-top: 0;
+    border-radius: 2rem;
+    /* z-index: 1; */
+}
+
+/* Page user */
+#header{
+    width: 100%;
+    height: auto;
+}
+.page-userlogo1{
+    padding-left: 11rem;
+    background: #82cc9e;
+    display: flex;
+    width: 100%;
+}
+
+.page-userlogo1 .logo_school{
+    width: 15rem;
+    padding: 2rem 3rem;
+}
+.page-userlogo1 .wright_school .Kh1{
+    width: 40rem;
+    font-family: 'Khmer OS Siemreap';
+    font-size: 1.8rem;
+    margin-left: 0rem;
+    font-weight: 700;
+    padding-top: 4rem;
+    color: #196F3D;
+}
+.page-userlogo1 .wright_school p{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.page-userlogo1 .wright_school .line{
+    height: 0.2rem;
+    width: 25.5rem;
+    background-color: #273746;
+    margin-top: -0.3rem;
+}
+/* part register */
+
+.col-sm-3 option{
+    font-family: 'Khmer OS Siemreap';
+}
+.register{
+    display: block;
+    text-decoration: none;
+    margin: 10px 0;
+    padding: 25px 0 25px 376px;
+}
+
+/* body{
+    background-color: #F0F3F4;
+} */
+/* style login user */
+.container-login{
+    width: 40rem;
+    height: auto;
+    background-color: #CACFD2;
+    margin: 16rem auto;
+    border-radius: 1rem;
+    box-shadow: 0.1rem 0.4rem 1rem #5D6D7E;
+}
+.part_logo{
+    display: flex;
+    align-items: center;
+    padding: 1rem 1.3rem 0rem 1.3rem;
+}
+.part_logo .logo_school img{
+    width: 7.5rem;
+}
+.part_logo .wright_school{
+    margin-left: 1rem;
+    margin-top: 0rem;
+}
+.part_logo .wright_school h4{
+    font-family: 'Khmer OS Koulen';
+    font-size: 1.8rem;
+    margin-left: 0rem;
+    color: #196F3D;
+}
+.part_logo .wright_school p{
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.part_logo .wright_school .line{
+    height: 0.2rem;
+    width: 22rem;
+    background-color: #273746;
+    margin-top: 0.5rem;
+}
+.container-login .form-group{
+    width: 100%;
+    padding: 0.5rem 0rem;
+    margin: 1rem 0rem;
+}
+.container-login .form-group .control-label{
+    width: 30%;
+    font-size: 1.3rem;
+    margin-left: 2rem;
+    font-weight: bold;
+    font-family: 'Khmer OS Siemreap';
+}
+.container-login .form-group .from-control{
+    width: 70%;
+    font-size: 1.3rem;
+    height: 2.6rem;
+    padding: 5px 20px;
+    margin-left: 0.95rem;
+    background-color: #F2F3F4;
+    border-radius: 0.4rem;
+    outline: #5D6D7E;
+}
+.container-login .form-group .from-control1{
+    width: 70%;
+    font-size: 1.3rem;
+    height: 2.6rem;
+    padding: 5px 20px;
+    margin-left: 1rem;
+    background-color: #F2F3F4;
+    border-radius: 0.4rem;
+    outline: #5D6D7E;
+}
+
+.container-login .form-group .from-control-submit{
+    font-size: 1.3rem;
+    margin-right: 2.75rem;
+    font-family: 'Khmer OS Siemreap';
+    background-color: #1E8449;
+    border-radius: 0.4rem;
+    outline: #5D6D7E;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    transition: 0.5s;
+    padding: 0.5% 3%;
+    color: #ffff;
+   float: right;
+   width: 70%;
+}
+.container-login .form-group .from-control-submit a{
+    font-family: 'Khmer OS Siemreap';
+    text-decoration: none;
+    color: #fff;
+}
+.container-login .form-group .from-control-submit:hover{
+    background-color: #0b4421;
+}
+.button-signup-userlo{
+    text-align: left;
+}
+.container-login .form-group .from-control-signup {
+    width: 70%;
+    font-size: 1.3rem;
+    height: 2.6rem;
+    margin-left: 9.28rem;
+    margin-top: 2rem;
+    background-color: rgb(40, 151, 224);
+    border-radius: 0.4rem;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    transition: 0.5s;
+}
+.container-login .form-group .from-control-signup a{
+    font-family: 'Khmer OS Siemreap';
+    text-decoration: none;
+    color: #fff;
+}
+.container-login .form-group .from-control-signup:hover{
+    background: rgb(18, 85, 129);
+}
+.forgot-password{
+    font-family: 'Khmer OS Siemreap'; 
+    font-size: 1.3rem;
+    margin-left: 9.28rem;
+}
+.button-signup-userlo .button-sign .fa-solid, .fa-sharp{
+    padding-right: 10px;
+    color: #fff;
+}
+.button-signup-userlo .button-signup .fa-sharp{
+    padding-right: 20.1rem;
+    color: #fff;
+}
+
+
+/* Page register User */
+.container-loginuser{
+    width: 90%;
+    height: auto;
+    background-color: #d2d2d3;
+    margin: 5rem auto;
+    border-radius: 1rem;
+    box-shadow: 0.1rem 0.4rem 1rem #5D6D7E;
+    overflow: hidden;
+}
+
+.page-userlogo1 .logo_school img{
+    width: 10rem;
+}
+.wright_school{
+    margin-top: 5px;
+}
+.container-text{
+    width: 100%;
+    text-align: center;
+    /* background: #6cf5e9; */
+}
+.container-text h3{
+    font-family: 'Khmer OS Muol Light';
+    font-weight: 600;
+    margin: 0;
+    padding: 20px;
+}
+.file-connect h4{
+    font-family: 'Khmer OS Siemreap';
+    font-weight: 600;
+    margin: 0;
+    padding: 20px;
+}
+.file-connect ol li{
+    text-align: left;
+    font-family: 'Khmer OS Siemreap';
+    font-size: 20px;
+    padding: 5px;
+
+}
+
+/* style button page1 st */
+.button-register{
+    display: flex;
+    margin: 3rem auto;
+    margin-left: 42%;
+}
+.stbutton-reset{
+    display: block;
+    font-family: 'Khmer OS Siemreap';
+    width: 10%;
+    background: #ec5439;
+}
+.stbutton-reset:hover{
+    display: block;
+    font-family: 'Khmer OS Siemreap';
+    width: 10%;
+    background: #b44a37;
+    border-color: #ff0000;
+    /* margin-left: 45.5rem; */
+
+}
+.stbutton-submit{
+    display: block;
+    margin-left: 50px;
+    font-family: 'Khmer OS Siemreap';
+    width: 10%;
+    /* margin-left: 45.5rem; */
+
+}
+
+.panel-signin{
+    border: 1px solid #1b1b1b;
+    border-radius: 1rem;
+}
+/* Page sign up student */
+.panel-signin label{
+    font-family: 'Khmer OS Siemreap';
+}
+/* Drop button */
+
+.dropbtn {
+    background-color: #1b1b1b;
+    color: white;
+    width: 100%;
+    margin: auto;
+    padding: 15px;
+    border: none;
+    font-size: 21px;
+    font-family: "Khmer OS Siemreap";
+
+  }
+  .dropbtn a{
+    font-family: "Khmer OS Siemreap";
+    color: white;
+    text-decoration: none;
+
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1000;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 26px;
+    text-decoration: none;
+    display: block;
+    font-family: "Khmer OS Siemreap";
+    font-size: 20px;
+    text-align: center;
+
+
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+    text-decoration: none;
+    
+}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+
+}
+  
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+    text-decoration: none;
+    color:#f1f1f1;
+
+}
+
+/* រៀនស្លាយ */
+.container-pageuser{
+    background-color: transparent;
+    width: 76%;
+    margin: 20px auto;
+}
+.carousel-inner{
+    width: 100%;
+    height: auto;
+    border-radius: 1rem;
+    box-shadow: 0.1rem 0.4rem 1rem #5D6D7E;
+}
+.carousel-inner .carousel-item img {
+    width: 100%;
+    height: auto;
+    padding: 15px;
+}
+/* User  */
+/* Page ST */
+/* #header{
+    width: 100%;
+    background: #04ad1b;
+} */
+
+.dashboard_st{
+    width: 100%;
+    height: auto;
+    display: flex;
+    /* user-select: none;
+    box-sizing: border-box; */
+    background-color: #04ad1b;
+    z-index: 999;
+}
+
+
+#menu{
+    background: #1b1b1b;
+    height: 100%;
+    width: 100%;
+    list-style: none;
+    margin-bottom: 0;
+    /* z-index: 999; */
+}
+
+
+/* Section buttop */
+.cantainer_bottop {
+    /* margin: 5rem 0; */
+    padding: 0;
+    background: #000;
+    height: 370px;
+    width: 100%;
+    /* overflow: hidden; */
+}
+.about_school {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 40px 0 0 0;
+    padding-bottom: 0;
+}
+
+.fa-house{
+    padding-right: 5px;
+    color: #808080;
+}
+.facebook .fa-facebook {
+    color: #4169e1;
+    font-size: 700;
+    padding-right: 7px;
+}
+.fa-phone {
+    padding-right: 7px;
+}
+.fa-globe {
+    padding-right: 5px;
+}
+.tfacebook .fa-facebook {
+    padding-right: 9px;
+    color: #4169e1;
+}
+.fa-square-youtube {
+    color: #ff0000;
+    padding-right: 12px;
+}
+.fa-google {
+    color: #2AF51C;
+    padding-right: 10px;
+}
+.about_school_left {
+    width: 50%;
+    color: #fff;
+    padding-left: 20px;
+
+}
+hr {
+    size: 2;
+    width: 50%;
+}
+.about_school_left h1 {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Khmer OS Siemreap', cursive ;
+}
+.tfacebook {
+    padding: 30px 0 0 0;
+    font-size: 22px;
+    font-weight: 700;
+}
+.youtube, .websit {
+    padding: 10px 0 0 0;
+    font-size: 22px;
+    font-weight: 700;
+}
+.about_school_right .address{
+    padding: 30px 0 0 0;
+    font-size: 20px;
+    font-family: 'Khmer OS Siemreap', cursive ;
+
+}
+.address span {
+    font-weight: 700;
+    font-family: 'Khmer OS Siemreap', cursive ;
+
+}
+.address p {
+    font-weight: 600;
+    font-family: 'Khmer OS Siemreap', cursive ;
+
+}
+.about_school_right .facebook {
+    padding: 10px 0;
+    font-size: 20px;
+    font-weight: 700;
+}
+.facebook span {
+    font-size: 22px;
+    font-weight: 700;
+}
+.about_school_right .internet {
+    padding: 9px 0 0 0;
+    font-size: 23px;
+    font-weight: 700;
+}
+.about_school_right .num_phone {
+    padding: 10px 0;
+    font-size: 20px;
+    font-weight: 700;
+}
+.num_phone span{
+    padding: 20px 0 0 0;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Siemreap', cursive;
+}
+.about_school_right {
+    width: 50%;
+    color: #fff;
+    padding-left: 20px;
+}
+.about_school_right h1 {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Khmer OS Siemreap', cursive ;
+}
+/* b heng tver  */
+.container-textall{
+    width: 76%;
+    display: flex;
+    margin: auto;
+}
+.container-textall .container-no-bg{
+    background-color: transparent;
+    width: 78%;
+    margin: 40px auto;
+}
+.container-textall .container-bot-ig{
+    width: 18%;
+    margin-left: 0;
+    margin: 40px auto;
+    background-color: #1E8449;
+}
+.container-no-bg .control-content{
+    width: 100%;
+    display: flex;
+    border: 1px solid gray;
+    padding: 10px;
+}
+.container-no-bg .control-content .image-side{
+    width: 30%;
+    height: auto;
+}
+.container-no-bg .control-content .image-side img{
+    width: 100%;
+}
+.container-no-bg .control-content .title-side{
+    width: 70%;
+    height: auto;
+    padding: 10px 20px;
+}
+.container-no-bg .control-content .title-side p{
+    font-size: 1.3rem;
+    font-family: 'Khmer OS Battambang';
+}
+
+.control-content1{
+    width: 76%;
+    display: flex;
+    border: 1px solid gray;
+
+}
+ .control-content1 .img-side{
+    width: 100%;
+    height: auto;
+}
+ .control-content1 .p-side{
+    width: 30%;
+    height: auto;
+}
+ .control-content1 .img-side img{
+    width: 100%;
+    height: auto;
+} 
+
+/* .contianer-width-content{
+    width: 90%;
+    margin: 0 auto;
+} */
+/* Page 1user */
+/* .container-1img {
+    width: 75.6%;
+    height: 400px;
+    margin: 0 auto;
+    background-color: rgb(196, 196, 49);
+}*/
+/* page1_st */
+.head{
+    display: flex;
+    background: #82cc9e;
+}
+.profilepic{
+    width: 50%;
+    /* padding: 50% auto; */
+    background: #4169e1;
+}
+.profilepic p{
+    margin-bottom: 0;
+    text-align: center;
+    padding-top: 90px;
+}
+#header1{
+    width: 50%;
+    /* background: #93cc0f; */
+}
+.page1_st1{
+    align-items: right;
+    text-align: right;
+}
+.page1_st1 .dropdown{
+    display: block;
+    align-items: right;
+}
+
+
+.page1-userlogo1{
+    padding-left: 11rem;
+    display: flex;
+    width: 50%;
+}
+
+.page1-userlogo1 .logo_school{
+    width: 15rem;
+    padding: 2rem 3rem;
+}
+.page1-userlogo1 .wright_school .Kh1{
+    width: 40rem;
+    font-family: 'Khmer OS Siemreap';
+    font-size: 1.8rem;
+    margin-left: 0rem;
+    font-weight: 700;
+    padding-top: 4rem;
+    color: #196F3D;
+}
+.page1-userlogo1 .wright_school p{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.page1-userlogo1 .wright_school .line{
+    height: 0.2rem;
+    width: 25.5rem;
+    background-color: #273746;
+    margin-top: -0.3rem;
+}
+
+
+/* container-content-student in page1_st */
+.container-content-student{
+    width: 90.4rem;
+    margin: auto;
+    height: auto;
+    /* background: #196F3D; */
+    box-shadow: 1px 1px 1px#1E8449;
+}
+.container-content-student .container-content-student-top{
+    width: 100%;
+    height: auto;
+    /* background: #a6c22b; */
+}
+
+.container-content-student-top h3{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    /* background: #a6c22b; */
+    text-align: center;
+    font-family: 'Khmer OS Siemreap';
+    font-size: 25px;
+
+}
+.container-content-student-info{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid; */
+    box-shadow: 1px 1px 1px gray;
+    background: #aaa8a8;
+}
+.container-content-student-info .student-info1{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    height: 50%;
+    padding: 10px 0;
+    /* background: #4169e1; */
+}
+.student-info1 .student-info2{
+    width: 30%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    background: #e2e2e1;
+}
+.student-info1 .student-info3{
+    width: 60%;
+    height: auto;
+    background: #e2e2e1;
+}
+.img-info2{
+    padding: 20px 60px;
+}
+/* .img-info2 img{
+    border-radius: 160px;
+} */
+.student-info3 .story-info3{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    /* background: #cae457; */
+}
+.student-info3 .story-info3 .label{
+    /* padding: 5px 0; */
+    border-bottom: 1px solid ;
+}
+.student-info3 .story-info3 .label label{
+    width: 25%;
+    height: auto;
+    margin: auto;
+    padding: 10px 0;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Khmer OS Siemreap';
+    text-decoration: 1px solid gray;
+    /* background: #c91bba; */
+    /* background: #719beb; */
+
+}
+.student-info3 .story-info3 .label span{
+    width: 75%;
+    height: auto;
+    font-size: 20px;
+    color: #273746;
+    font-family: 'Khmer OS Siemreap';
+    /* background: #719beb; */
+}
+.hr{
+    width: 100%;
+    size: 12;
+    color: #c91bba;
+}
+.dropbtn .icon-logout{
+    padding-left: 10px;
+}
+@media (max-width: 600px){
+
+/* Page user */
+#header{
+    width: 100%;
+    height: auto;
+}
+.page-userlogo1{
+    display: flex;
+    width: auto;
+}
+
+.page-userlogo1 .logo_school{
+    width: 10rem;
+    margin-left: -7rem;
+    padding: 2rem 1.5rem;
+}
+.page-userlogo1 .logo_school img{
+    width: 6rem;
+    vertical-align: none;
+    margin-left: -2rem;
+
+}
+.page-userlogo1 .wright_school{
+    margin-left: -3rem;
+}
+.page-userlogo1 .wright_school .Kh1{
+    width: auto;
+    font-family: 'Khmer OS Siemreap';
+    font-size: 1.5rem;
+    margin-left: 0rem;
+    font-weight: 700;
+    color: #196F3D;
+}
+.page-userlogo1 .wright_school p{
+    font-weight: bold;
+    font-size: 1rem;
+}
+.page-userlogo1 .wright_school .line{
+    height: 0.2rem;
+    width: auto;
+    background-color: #273746;
+    margin-top: -0.3rem;
+}
+
+    /* Page login user */
+    .container-login{
+        width: 30rem;
+        height: auto;
+        background-color: #CACFD2;
+        margin: 16rem auto;
+        border-radius: 1rem;
+        box-shadow: 0.1rem 0.4rem 1rem #5D6D7E;
+        transition: 0.3s;
+    }
+    .part_logo{
+        display: flex;
+        align-items: center;
+        padding: 1rem 1.3rem 0rem 1.3rem;
+        transition: 0.3s;
+    }
+    .part_logo .logo_school img{
+        width: 6rem;
+        transition: 0.3s;
+    }
+    .part_logo .wright_school{
+        margin-left: 1.5rem;
+        margin-top: 0.3rem;
+        transition: 0.3s;
+    }
+    .part_logo .wright_school h4{
+        font-family: 'Khmer OS Koulen';
+        font-size: 1.5rem;
+        color: #196F3D;
+        transition: 0.3s;
+    }
+    .part_logo .wright_school p{
+        font-weight: bold;
+        font-size: 1.04rem;
+        transition: 0.3s;
+    }
+    .part_logo .wright_school .line{
+        height: 0.2rem;
+        width: 19.5rem;
+        background-color: #273746;
+        margin-top: 0.5rem;
+        transition: 0.3s;
+    }
+    .container-login .form-group{
+        width: 100%;
+        padding: 0.5rem 0rem;
+        margin: 1rem 0rem;
+        transition: 0.3s;
+    }
+    .container-login .form-group .control-label{
+        width: 30%;
+        font-size: 1.3rem;
+        margin-left: 1.1rem;
+        font-weight: bold;
+        transition: 0.3s;
+    }
+    .container-login .form-group .from-control {
+        width: 65%;
+        font-size: 1.3rem;
+        height: 2.6rem;
+        margin-left: 15px;
+        background-color: #F2F3F4;
+        border-radius: 0.4rem;
+        outline: #5D6D7E;
+        transition: 0.3s;
+    }
+    .container-login .form-group .from-control1{
+        width: 65%;
+        font-size: 1.3rem;
+        height: 2.6rem;
+        background-color: #F2F3F4;
+        border-radius: 0.4rem;
+        outline: #5D6D7E;
+        transition: 0.3s;
+    }
+    .register{
+        display: block;
+        text-decoration: none;
+        margin: 10px 0;
+        padding: 25px 0 25px 239px;
+    }
+    /* ...Page login user */
+    /* part icon */
+/* .fa-user{
+    transform: translate();
+    margin-left: 0.5rem;
+} */
+.button-signup-userlo .button-sign .fa-solid, .fa-sharp{
+    padding-right: 2%;
+    color: #fff;
+}
+.button-signup-userlo .button-signup .fa-sharp{
+    padding-right: 11.6rem;
+    color: #fff;
+}
+.container-login .form-group .from-control-submit{
+        width: 65%;
+        font-size: 1.3rem;
+        height: 2.6rem;
+        margin-right: 2.1rem;
+        border-radius: 0.4rem;
+        outline: #5D6D7E;
+        color: #F0F3F4;
+        cursor: pointer;
+        outline: none;
+        border: none;
+        transition: 0.5s;
+    }
+    .container-login .form-group .from-control-signup{
+        width: 65%;
+        font-size: 1.3rem;
+        height: 2.6rem;
+        margin-left: 8.5rem;
+        border-radius: 0.4rem;
+        outline: #5D6D7E;
+        color: #F0F3F4;
+        cursor: pointer;
+        outline: none;
+        border: none;
+        transition: 0.5s;
+    }
+    .button-sign{
+        display: block;
+    }
+    .container-login .form-group .from-control-submit:hover{
+        font-size: 1.3rem;
+        height: 2.6rem;
+        background-color: #0b4421;
+        border-radius: 0.4rem;
+        outline: #5D6D7E;
+        color: #fff;
+        cursor: pointer;
+        outline: none;
+    }
+    .container-login .form-group .button-sign .from-control-signup{
+        width: 65%;
+        font-size: 1.3rem;
+        margin-left: 4rem;
+        background-color: rgb(40, 151, 224);
+        border-radius: 0.4rem;
+        outline: #5D6D7E;
+        color: #F0F3F4;
+        cursor: pointer;
+        outline: none;
+        border: none;
+        transition: 0.5s;
+    }
+    .container-login .form-group .from-control-signup a{
+        font-family: 'Khmer OS Siemreap';
+        text-decoration: none;
+        color: #fff;
+    }
+    .container-login .form-group .button-sign .from-control-signup:hover{
+        font-size: 1.3rem;
+        height: 2.6rem;
+        margin-left: 4rem;
+        background-color: rgb(18, 85, 129);
+        border-radius: 0.4rem;
+        outline: #5D6D7E;
+        color: #F0F3F4;
+        cursor: pointer;
+        outline: none;
+        border: none;
+        transition: 0.5s;
+    }
+    .forgot-password{
+        font-family: 'Khmer OS Siemreap'; 
+        font-size: 1.3rem;
+        margin-left: 8.5rem;
+    }
+
+
+    .dropbtn{
+        width: 100%;
+        position: relative;
+        display: block;
+        text-decoration: none;
+
+      }
+    .dropdown-content a {
+        color: black;
+        padding: 12px 26px;
+        text-decoration: none;
+        display: block;
+        font-family: "Khmer OS Siemreap";
+        font-size: 20px;
+        text-align: center;
+    
+    
+      }
+      .dashboard_st{
+        width: 100%;
+        display: block;
+      }
+
+      /* .container_pageuser{
+        width: 100%;
+        height: auto;
+        background: #D3F6F4;
+        margin: 0 auto;
+        margin-top: 0px;
+        border-radius: 1rem;
+        box-shadow: 0.1rem 0.4rem 1rem #5D6D7E;
+        z-index: -1;
+    }
+
+    ស្លាយរូបភាព
+    .container_pageuser{
+        width: 25rem;
+        overflow: hidden;
+    
+    } */
+
+/* ស្តាយ page1 st */
+
+/* style button page1 st */
+.button-register{
+    display: flex;
+    margin: 3rem auto;
+    margin-left: 8%;
+}
+.stbutton-reset{
+    display: block;
+    font-family: 'Khmer OS Siemreap';
+    width: 35%;
+    background: #ec5439;
+}
+.stbutton-reset:hover{
+    display: block;
+    font-family: 'Khmer OS Siemreap';
+    width: 35%;
+    background: #b44a37;
+    border-color: #ff0000;
+
+}
+.stbutton-submit{
+    display: block;
+    margin-left: 50px;
+    font-family: 'Khmer OS Siemreap';
+    width: 35%;
+    /* margin-left: 45.5rem; */
+
+}
+
+
+
+/* page1_st */
+.container-content-student{
+    display: block;
+    width: 100%;
+    /* background: #196F3D; */
+    box-shadow: 1px 1px 1px#1E8449;
+}
+.container-content-student-info .student-info1{
+    display: block;
+    width: auto;
+}
+.student-info1 .student-info2{
+    width: auto;
+    height: auto;
+    text-align: center;
+    background: #e2e2e1;
+}
+.student-info1 .student-info3{
+    width: auto;
+    height: auto;
+    background: #e2e2e1;
+}
+.student-info3 .story-info3 .label label{
+    width: 40%;
+    height: auto;
+    margin: auto;
+   
+}
+.student-info3 .story-info3 .label span{
+    width: 60%;
+    height: auto;
+    font-size: 20px;
+    color: #273746;
+    font-family: 'Khmer OS Siemreap';
+    /* background: #719beb; */
+}
+
+/* slade */
+.container-textall{
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+.container-textall .container-bot-ig{
+    width: 78%;
+    margin-left: 0;
+    margin: 40px auto;
+    border: 1px solid;
+    background-color: #1E8449;
+}
+.container-no-bg .control-content{
+    width: 100%;
+    display: block;
+    border: 1px solid gray;
+    padding: 10px;
+}
+.container-no-bg .control-content .image-side{
+    width: 100%;
+    height: auto;
+}
+.container-no-bg .control-content .image-side img{
+    width: 100%;
+}
+.container-no-bg .control-content .title-side{
+    width: 100%;
+    height: auto;
+    padding: 10px 20px;
+}
+.container-no-bg .control-content .title-side p{
+    font-size: 1.1rem;
+    font-family: 'Khmer OS Battambang';
+}
+}

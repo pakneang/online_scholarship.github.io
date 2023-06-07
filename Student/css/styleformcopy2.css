@@ -1,0 +1,344 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    background: rgba(233, 225, 225, 0.479);
+}
+
+.form-element {
+    width: 130px;
+    height:140px;
+    margin-top: 10px;
+    margin-left: 15px;
+    box-shadow:0px 0px 20px 5px rgba(100,100,100,0.1);
+  }
+.form-element input {
+    display:none;
+  }
+/* .form-element .myimage {
+    width:100%;
+    height:100%;
+    object-fit:cover;
+  } */
+  .myimage{
+    width:130px;
+    height:140px;
+    object-fit:cover;;
+    overflow: hidden;
+  }
+.form-element div {
+    height:30px;
+    background:rgba(0,0,0,0.5);
+    text-align:center;
+    line-height:30px;
+    font-size:13px;
+    color:#f5f5f5;
+    font-weight:600;
+    margin-top:-35px;
+    overflow: hidden;
+  }
+.form-element div span {
+    font-size:30px;
+  }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 75vw;
+    background-color: #d2d2d3;
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+#header {
+    margin: auto;
+    display: flex;
+}
+.logo_school img{
+    width: 8rem;
+    margin-left: -13rem;
+}
+.wright_school{
+    margin-top: 20px;
+    margin-left: -2rem;
+}
+.wright_school .Kh1{
+    font-family: 'Khmer OS Muol Light';
+    font-weight: 600;
+    font-size: 26px;
+}
+.wright_school .En{
+    font-family: 'Khmer OS Muol Light';
+    font-weight: 600;
+    font-size: 26px;
+}
+.container h2{
+    font-family: 'Khmer OS Muol Light';
+    font-weight: 600;
+    font-size: 22px;
+    margin: 0;
+    padding: 20px;
+}
+.file-connect{
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 0 40px 10px 40px;
+    text-align: center;
+    background: #6fd5e659;
+}
+
+.file-connect h3{
+    font-family: 'Khmer OS Siemreap';
+    font-weight: 600;
+    margin: 0 0 -20px 0;
+    padding: 20px;
+    font-size: 20px;
+    text-align: left;
+}
+.connect-h3 h3{
+    font-size: 20px;
+    font-family: 'Khmer OS Siemreap';
+    font-weight: 600;
+    margin: 0;
+    padding: 20px;
+}
+.file-connect ol li{
+    text-align: left;
+    font-family: 'Khmer OS Siemreap';
+    font-size: 20px;
+    padding: 5px;
+
+}
+/* .container h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(59, 55, 55);
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.container h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(59, 55, 55);
+    font-size: 20px;
+    margin-top: 5px;
+} */
+
+.container .form-wrapper {
+    border: 2px solid #3a3636;
+    margin-top: 20px;
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.form {
+    width: 80%;
+}
+
+#Studentimage {
+    height: 130px;
+    width: 125px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(59, 55, 55);
+}
+
+.genders p {
+    font-family: Arial, Helvetica, sans-serif , 'Khmer OS Siemreap' ;
+    color: Black;
+    font-size: 20px;
+}
+
+.form-item {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    width: 90%;
+}
+
+.tabble-row{
+    display: flex;
+}
+
+.form-item label {
+    width: 200px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif , 'Khmer OS Siemreap';
+}
+
+.form-item input {
+    margin: 10px 15px;
+    height: 30px;
+    width: 80%;
+    padding-left: 10px;
+    font-size: 15px;
+    border: 1px black solid;
+    border-radius: 5px;
+}
+
+.form-item .form-control{
+    height: 32px;
+    margin: 10px 15px;
+    /* width: 90%; */
+    font-size: 13px;
+    border: 1px black solid;
+    border-radius: 5px;
+}
+
+/* .form-item .form-control-label{
+    margin-left: 40px;
+} */
+
+.form-item .col-sx-2{
+    display: flex;
+}
+.form-item .col-sx-2 label{
+    margin: auto;
+}
+.col-sx-2 .col-4{
+    margin-left: 2px;
+}
+.form-item .form-control option{
+    font-size: 15px;
+    font-family: 'Khmer OS Siemreap', Arial, Helvetica, sans-serif ;
+}
+
+#option-id{
+    width: 50px;
+}
+
+.genders {
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 16px;
+    font-size: 14px;
+}
+
+.genders input {
+    width: 20px;
+}
+
+hr {
+    margin-top: 15px;
+    width: 80%;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+/* .same-perm{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 13px;
+    margin: 5px 105px;
+} */
+.register-button{
+    text-align: center;
+}
+
+.register-button .reset {
+    margin: 25px;
+    background: hsl(12, 91%, 56%);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 7px 20px;
+    border-radius: 5px;
+    color: #fbfbfb;
+    border: 0;
+    cursor: pointer;
+}
+
+.register-button .reset:hover {
+    color: #3a3636;
+}
+.register-button .register {
+    margin: 25px;
+    background: #1e90ff;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 7px 20px;
+    border-radius: 5px;
+    color: #fbfbfb;
+    border: 0;
+    cursor: pointer;
+}
+
+.register-button .register:hover {
+    color: #3a3636;
+}
+
+@media screen and (max-width: 640px) {
+    .container {
+        width: 90vw;
+        padding: 10px 5px;
+    }
+    #header{
+        display: block;
+        text-align: center;
+    }
+    .logo_school img{
+        width: 7rem;
+        text-align: center;
+        margin: auto;
+    }
+    .wright_school{
+        margin-top: 20px;
+        margin-left: 0;
+    }
+    .wright_school .Kh1{
+        font-family: 'Khmer OS Muol Light';
+        font-weight: 600;
+        font-size: 20px;
+    }
+    .wright_school .En{
+        font-family: 'Khmer OS Muol Light';
+        font-weight: 600;
+        font-size: 20px;
+    }
+    .container h2{
+        font-family: 'Khmer OS Muol Light';
+        font-weight: 600;
+        font-size: 18px;
+        margin: 0;
+        padding: 20px;
+    }
+    .form-item .col-sx-2{
+        display: block;
+    }
+    .form-item .col-sx-2 .col-4
+    {
+        display: block;
+    }
+    .form-item label {
+        font-size: 14px;
+    }
+    .form-item input {
+        margin: 5px 10px;
+        font-size: 12px;
+    }
+    .genders {
+        margin-left: 10px;
+        font-size: 13px;
+    }
+    .genders input {
+        width: 15px;
+    }
+    .same-perm{
+
+    font-size: 13px;
+    margin: 5px 50px;
+}
+    .register {
+        margin: 25px;
+        font-size: 15px;
+        padding: 7px 10px;
+    }
+}

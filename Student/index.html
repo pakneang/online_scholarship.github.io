@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="/Pro_me/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <title>Page user</title>
+</head>
+
+<body style="background: #D3F6F4;">
+    <div class="page-userlogo1">
+        <div class="logo_school">
+            <img src="../Pro_j/imgs/logoschool.png" alt="">
+        </div>
+        <div class="wright_school">
+            <h4 class="Kh1">វិទ្យាស្ថានបច្ចេកវិទ្យាកំពង់ស្ពឺ</h4>
+            <p class="En">Kampong Speu Institute of Technology</p>
+            <div class="line">
+
+            </div>
+        </div>
+    </div>
+    <div class="dashboard_admin1">
+        <nav class="dashboard_admin">
+            <div class="text">អ្នកគ្រប់គ្រង</div>
+            <ul class="menu-admin">
+                <li><a href="">ប្រវត្តិរូបសិស្ស</a></li>
+                <li><a href="#" class="feat-btn">បញ្ជីសិស្សចុះឈ្មោះតាមជំនាញ
+                        <span class="fa-sharp fa-light fa-sort-down first"></span>
+                    </a>
+                    <ul class="feat-show">
+                        <li><a href="">វិទ្យាសាស្ត្រដំណាំ</a></li>
+                        <li><a href="">វិទ្យាសាស្ត្រសត្វ</a></li>
+                        <li><a href="">បច្ចេកវិទ្យាកុំព្យូទ័រ</a></li>
+                        <li><a href="">បច្ចេកវិទ្យាអាហារ</a></li>
+                        <li><a href="">ការដំឡើងប្រព័ន្ធអគ្គិសនី</a></li>
+                        <li><a href="">បច្ចេកវិទ្យាមេកានិក</a></li>
+                        <li><a href="">សិស្សចុះឈ្មោះសរុប</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" class="serv-btn">សេចក្ដីជូនដំណឹង
+                        <span class="fa-sharp fa-light fa-sort-down second"></span>
+                    </a>
+                    <ul class="serv-show">
+                        <li><a href="">អំពីការប្រឡង</a></li>
+                        <li><a href="">អំពីលទ្ធផលការប្រឡង</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <script>
+            $('.feat-btn').click(function () {
+                $('nav ul .feat-show').toggleClass("show");
+                $('nav ul .first').toggleClass("rotate");
+            });
+            $('.serv-btn').click(function () {
+                $('nav ul .serv-show').toggleClass("show1");
+                $('nav ul .second').toggleClass("rotate");
+            });
+        </script>
+    </div>
+</body>
+
+</html>
